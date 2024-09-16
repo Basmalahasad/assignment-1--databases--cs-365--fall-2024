@@ -7,3 +7,4 @@
 <!ELEMENT last-name (#PCDATA)>
 <!ELEMENT preferred-name (#PCDATA)>
 <!ELEMENT student-id (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
