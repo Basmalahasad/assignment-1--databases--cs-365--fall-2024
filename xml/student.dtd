@@ -11,3 +11,4 @@
 <!ELEMENT phone (#PCDATA)>
 <!ELEMENT year (#PCDATA)>
 <!ELEMENT gpa (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
