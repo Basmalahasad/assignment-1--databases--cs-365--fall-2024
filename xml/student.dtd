@@ -12,3 +12,4 @@
 <!ELEMENT year (#PCDATA)>
 <!ELEMENT gpa (#PCDATA)>
 <!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
