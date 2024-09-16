@@ -1,6 +1,6 @@
 <!ELEMENT student-records (student)+>
 
-<!ELEMENT student (first-name,middle-name,last-name,preferred-name,student-id,email,phone,year,gpa,major+,minor+,status,advisor,date-of-enrollment,date-of-graduation)>
+<!ELEMENT student (first-name,middle-name?,last-name,preferred-name?,student-id,email,phone,year,gpa,major+,minor*,status,advisor,date-of-enrollment,date-of-graduation)>
 
 <!ELEMENT first-name (#PCDATA)>
 <!ELEMENT middle-name (#PCDATA)>
@@ -17,3 +17,4 @@
 <!ELEMENT advisor (#PCDATA)>
 <!ELEMENT date-of-enrollment (#PCDATA)>
 <!ELEMENT date-of-graduation (#PCDATA)>
+
