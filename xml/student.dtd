@@ -15,3 +15,4 @@
 <!ELEMENT minor (#PCDATA)>
 <!ELEMENT status (#PCDATA)>
 <!ELEMENT advisor (#PCDATA)>
+<!ELEMENT date-of-enrollment (#PCDATA)>
