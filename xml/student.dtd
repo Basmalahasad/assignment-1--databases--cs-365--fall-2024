@@ -16,3 +16,4 @@
 <!ELEMENT status (#PCDATA)>
 <!ELEMENT advisor (#PCDATA)>
 <!ELEMENT date-of-enrollment (#PCDATA)>
+<!ELEMENT date-of-graduation (#PCDATA)>
