@@ -13,3 +13,4 @@
 <!ELEMENT gpa (#PCDATA)>
 <!ELEMENT major (#PCDATA)>
 <!ELEMENT minor (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
