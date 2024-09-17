@@ -1,5 +1,25 @@
 {
   "student-records": [{
-    "student": {}
+    "student": {
+      "personal-information": {
+        "name": "Gordon Matthew Sumner",
+        "preferred-name": "Sting",
+        "student-id": 1234567
+      },
+      "contact-information": {
+        "email": "sting@thepolice.com",
+        "phone": "212.123.4567"
+      },
+      "degree-information": {
+        "year": "first year",
+        "status": "full-time",
+        "gpa": 4,
+        "major": "Music",
+        "minor": "English",
+        "advisor": "Andy Summers",
+        "date-of-enrollment": "08-25-1969",
+        "date-of-graduation": "05-01-1973"
+      }
+    }
   }]
 }
