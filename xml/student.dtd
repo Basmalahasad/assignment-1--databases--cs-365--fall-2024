@@ -1,23 +1,62 @@
+<!-- ====================================================================
+  Define the root element of the XML document, student-records is a
+  container for one or more student elements.
+  ================================================================== -->
 <!ELEMENT student-records (student)+>
 
+<!-- ===================================================================
+  Define the structure of a student element, where each student must
+  have first and last name, student ID, email, phone, year, GPA,
+  major, status, advisor, enrollment date, graduation date elements.
+
+  The student can have zero or one middle name and preferred name.
+
+  The student can have zero or more minors and one or more majors.
+  ================================================================== -->
 <!ELEMENT student (first-name,middle-name?,last-name,preferred-name?,student-id,email,phone,year,gpa,major+,minor*,status,advisor,date-of-enrollment,date-of-graduation)>
 
+<!-- Define the first-name element, which contains text. -->
 <!ELEMENT first-name (#PCDATA)>
+<!-- Define the middle-name element, which contains text and is optional. -->
 <!ELEMENT middle-name (#PCDATA)>
+<!-- Define the last-name element, which contains text. -->
 <!ELEMENT last-name (#PCDATA)>
+<!-- Define the preferred-name element, which contains text and is optional. -->
 <!ELEMENT preferred-name (#PCDATA)>
+<!-- Define the student-id element, which contains text. -->
 <!ELEMENT student-id (#PCDATA)>
+<!-- Define the email element, which contains text. -->
 <!ELEMENT email (#PCDATA)>
+<!-- Define the phone element, which contains text. -->
 <!ELEMENT phone (#PCDATA)>
+<!-- Define the year element, which contains text. -->
 <!ELEMENT year (#PCDATA)>
+<!-- Define the GPA element, which contains text. -->
 <!ELEMENT gpa (#PCDATA)>
+<!-- Define the major element, which contains text and can appear one or more times -->
 <!ELEMENT major (#PCDATA)>
+<!-- Define the minor element, which contains text and is optional. -->
 <!ELEMENT minor (#PCDATA)>
+<!-- Define the status element, which contains text. -->
 <!ELEMENT status (#PCDATA)>
+<!-- Define the advisor element, which contains text. -->
 <!ELEMENT advisor (#PCDATA)>
+<!-- Define the date-of-enrollment element, which contains text. -->
 <!ELEMENT date-of-enrollment (#PCDATA)>
+<!-- Define the date-of-graduation element, which contains text. -->
 <!ELEMENT date-of-graduation (#PCDATA)>
 
+<!-- ====================================================================
+  Define the attributed for the student element.
+
+  Year attribute must be one of : first-year, second-year, third-year,
+  fourth-year, or graduate.
+
+  status attribute must be one of : full-time, part-time, graduated,
+  withdrawn.
+
+  Both atributes are required.
+  ================================================================== -->
 <!ATTLIST student
           year (first-year | second-year | third-year | fourth-year | graduate) #REQUIRED
           status (full-time | part-time | graduated | withdrawn) #REQUIRED
