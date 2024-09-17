@@ -9,6 +9,8 @@
     <phone>212.123.4567</phone>
     <year>first year</year>
     <gpa>4</gpa>
+    <major>Music</major>
+    <minor>English</minor>
   </student>
   <student name="Kim Thayil">
     <student-id>4567890</student-id>
@@ -16,6 +18,8 @@
     <phone>206.123.4567</phone>
     <year>second year</year>
     <gpa>3</gpa>
+    <major>Philosophy</major>
+    <minor>Music</minor>
   </student>
   <student name="Saul Hudson">
     <preferred-name>Slash</preferred-name>
@@ -24,6 +28,8 @@
     <phone>213.456.8392</phone>
     <year>fourth year</year>
     <gpa>2</gpa>
+    <major>Music</major>
+    <minor>Criminal Justice</minor>
   </student>
   <student name="Emily Kokal">
     <student-id>2983928</student-id>
@@ -31,6 +37,8 @@
     <phone>213.123.7654</phone>
     <year>third year</year>
     <gpa>3.8</gpa>
+    <major>Political Science</major>
+    <minor>Law</minor>
   </student>
   <student name="Mike Inez">
     <student-id>7645726</student-id>
@@ -38,5 +46,7 @@
     <phone> 213.444.3323</phone>
     <year>second year</year>
     <gpa>4</gpa>
+    <major>Business Management</major>
+    <minor>Math</minor>
   </student>
 </student-records>
