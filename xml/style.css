@@ -16,6 +16,26 @@ date-of-graduation{
   display: block;
 }
 
+email::before,
+phone::before,
+gpa::before,
+major::before,
+advisor::before,
+date-of-enrollment::before,
+date-of-graduation::before{
+  color: #525252;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+:root::before,
+personal-information::before,
+preferred-name,
+student-id::after,
+phone::after{
+  color: #134e90
+}
+
 :root {
   margin: 0 auto;
   width: 1200px;
@@ -28,7 +48,6 @@ date-of-graduation{
   font-size: 3rem;
   margin: 24px 0;
   font-weight: 500;
-  color: #134e90
 }
 
 student {
@@ -46,7 +65,6 @@ personal-information::before{
   font-weight: 600;
   font-size: 25px;
   margin-bottom: 5px;
-  color: #134e90
 }
 
 preferred-name {
@@ -54,7 +72,6 @@ preferred-name {
   font-style: italic;
   font-size: 22px;
   margin-left: 5px;
-  color: #134e90
 }
 
 preferred-name::before {
@@ -76,21 +93,14 @@ student-id::after{
   font-weight: 600;
   font-size: 18px;
   margin-top: 25px;
-  color: #134e90
 }
 
 email::before{
   content: "Email: " attr(name);
-  font-weight: 500;
-  margin-left: 15px;
-  color: #525252;
 }
 
 phone::before{
   content: "Phone Number: " attr(name);
-  font-weight: 500;
-  margin-left: 15px;
-  color: #525252;
 }
 
 phone::after{
@@ -98,21 +108,14 @@ phone::after{
   font-weight: 600;
   font-size: 18px;
   margin-top: 25px;
-  color: #134e90
 }
 
 gpa::before{
   content: "GPA: " attr(name);
-  font-weight: 500;
-  margin-left: 15px;
-  color: #525252;
 }
 
 major::before{
   content: "Major: " attr(name);
-  font-weight: 500;
-  margin-left: 15px;
-  color: #525252;
 }
 
 minor::before{
@@ -124,21 +127,12 @@ minor::before{
 
 advisor::before{
   content: "Advisor: " attr(name);
-  font-weight: 500;
-  margin-left: 15px;
-  color: #525252;
 }
 
 date-of-enrollment::before{
   content: "Enrollment Date: " attr(name);
-  font-weight: 500;
-  margin-left: 15px;
-  color: #525252;
 }
 
 date-of-graduation::before{
   content: "Graduation Date: " attr(name);
-  font-weight: 500;
-  margin-left: 15px;
-  color: #525252;
 }
