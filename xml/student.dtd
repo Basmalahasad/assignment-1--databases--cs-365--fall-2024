@@ -1,61 +1,75 @@
-<!-- ====================================================================
-  Define the root element of the XML document, student-records is a
-  container for one or more student elements.
-  ================================================================== -->
+<!-- =============================================================================
+  Define the root element of the XML document, 'student-records' is a container
+  for one or more 'student' elements.
+  ============================================================================ -->
 <!ELEMENT student-records (student)+>
 
-<!-- ===================================================================
-  Define the structure of a student element, where each student must
-  have student ID, email, phone, year, GPA, major, status, advisor,
-  enrollment date, graduation date elements.
+<!-- =============================================================================
+  Define the structure of a 'student' element, where each student must have one
+  'personal information' element, one 'contact information' element, and one
+  'degree information' element.
+  ============================================================================ -->
+<!ELEMENT student (personal-information,contact-information, degree-information)>
 
-  The student can have zero or one preferred names.
+<!-- =============================================================================
+  Define the structure of a 'personal information'  element, where each student
+  can have zero or one preferred name, and one student ID.
 
-  The student can have zero or more minors and one or more majors.
-  ================================================================== -->
-<!ELEMENT student (preferred-name?,student-id,email,phone,year,gpa,major+,minor*,status,advisor,date-of-enrollment,date-of-graduation)>
-
-<!-- Define the preferred-name element, which contains text and is optional. -->
+  Define the structure of 'preferred name' and 'student ID' elements as parsed
+  character data, since these elements contain character data (text).
+  ============================================================================ -->
+<!ElEMENT personal-information (preferred-name?,student-id)>
 <!ELEMENT preferred-name (#PCDATA)>
-<!-- Define the student-id element, which contains text. -->
 <!ELEMENT student-id (#PCDATA)>
-<!-- Define the email element, which contains text. -->
+
+<!-- =============================================================================
+  Define the structure of a 'contact information'  element, where each student
+  can have one email and one phone number.
+
+  Define the structure of 'email' and 'phone' elements as parsed character
+  data, since these elements contain character data (text).
+  ============================================================================ -->
+<!ELEMENT contact-information (email,phone)>
 <!ELEMENT email (#PCDATA)>
-<!-- Define the phone element, which contains text. -->
 <!ELEMENT phone (#PCDATA)>
-<!-- Define the year element, which contains text. -->
-<!ELEMENT year (#PCDATA)>
-<!-- Define the GPA element, which contains text. -->
+
+<!-- =============================================================================
+  Define the structure of a 'degree information'  element, where each student
+  can have one GPA, one or more majors, zero or more minors, one advisor, one
+  enrollment date, and one graduation date.
+
+  Define the structure of 'gpa','major','minor','advisor','date of enrollment',
+  and 'date of graduation' elements as parsed character data, since these elements
+  contain character data (text).
+  ============================================================================ -->
+<!ELEMENT degree-information (gpa,major+,minor*,advisor,date-of-enrollment,date-of-graduation)>
 <!ELEMENT gpa (#PCDATA)>
-<!-- Define the major element, which contains text and can appear one or more times -->
 <!ELEMENT major (#PCDATA)>
-<!-- Define the minor element, which contains text and is optional. -->
 <!ELEMENT minor (#PCDATA)>
-<!-- Define the status element, which contains text. -->
-<!ELEMENT status (#PCDATA)>
-<!-- Define the advisor element, which contains text. -->
 <!ELEMENT advisor (#PCDATA)>
-<!-- Define the date-of-enrollment element, which contains text. -->
 <!ELEMENT date-of-enrollment (#PCDATA)>
-<!-- Define the date-of-graduation element, which contains text. -->
 <!ELEMENT date-of-graduation (#PCDATA)>
 
-<!-- ====================================================================
-  Define the attributed for the student element.
+<!-- =============================================================================
+  Define the attributed for the 'personal information' element.
 
-  name attribute is a required attribute of type CDATA. It is used to
-  specify the name of the student.
+  name attribute is a required attribute of type simple character data (CDATA).
+  It is used to specify the name of the student.
+  ============================================================================ -->
+<!ATTLIST personal-information
+          name CDATA #REQUIRED>
 
-  year attribute must be one of : first-year, second-year, third-year,
+<!-- =============================================================================
+  Define the attributed for the 'degree information' element.
+
+  The year attribute must be one of : first-year, second-year, third-year,
   fourth-year, or graduate.
 
-  status attribute must be one of : full-time, part-time, graduated,
+  The status attribute must be one of : full-time, part-time, graduated,
   withdrawn.
 
-  All atributes are required.
-  ================================================================== -->
-<!ATTLIST student
-          name CDATA #REQUIRED
+  All attributes are required.
+  ============================================================================ -->
+<!ATTLIST degree-information
           year (first year | second year | third year | fourth year | graduate) #REQUIRED
-          status (full-time | part-time | graduated | withdrawn) #REQUIRED
->
+          status (full-time | part-time | graduated | withdrawn) #REQUIRED>

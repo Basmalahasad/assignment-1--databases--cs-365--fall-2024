@@ -3,71 +3,91 @@
 <!DOCTYPE student-records SYSTEM "student.dtd">
 
 <student-records>
-  <student name="Gordon Matthew Sumner">
-    <preferred-name>Sting</preferred-name>
-    <student-id>1234567</student-id>
-    <email>sting@thepolice.com</email>
-    <phone>212.123.4567</phone>
-    <year>first year</year>
-    <gpa>4</gpa>
-    <major>Music</major>
-    <minor>English</minor>
-    <status>full-time</status>
-    <advisor>Andy Summers</advisor>
-    <date-of-enrollment>08-25-1969</date-of-enrollment>
-    <date-of-graduation>05-01-1973</date-of-graduation>
+  <student>
+    <personal-information name="Gordon Matthew Sumner">
+      <preferred-name>Sting</preferred-name>
+      <student-id>1234567</student-id>
+    </personal-information>
+    <contact-information>
+      <email>sting@thepolice.com</email>
+      <phone>212.123.4567</phone>
+    </contact-information>
+    <degree-information year="first year" status="full-time">
+      <gpa>4</gpa>
+      <major>Music</major>
+      <minor>English</minor>
+      <advisor>Andy Summers</advisor>
+      <date-of-enrollment>08-25-1969</date-of-enrollment>
+      <date-of-graduation>05-01-1973</date-of-graduation>
+    </degree-information>
   </student>
-  <student name="Kim Thayil">
-    <student-id>4567890</student-id>
-    <email>kim@soundgarden.com</email>
-    <phone>206.123.4567</phone>
-    <year>second year</year>
-    <gpa>3</gpa>
-    <major>Philosophy</major>
-    <minor>Music</minor>
-    <status>full-time</status>
-    <advisor>Chris Cornell</advisor>
-    <date-of-enrollment>08-25-1978</date-of-enrollment>
-    <date-of-graduation>05-01-1982</date-of-graduation>
+  <student>
+    <personal-information name="Kim Thayil">
+      <student-id>4567890</student-id>
+    </personal-information>
+    <contact-information>
+      <email>kim@soundgarden.com</email>
+      <phone>206.123.4567</phone>
+    </contact-information>
+    <degree-information year="second year" status="full-time">
+      <gpa>3</gpa>
+      <major>Philosophy</major>
+      <minor>Music</minor>
+      <advisor>Chris Cornell</advisor>
+      <date-of-enrollment>08-25-1978</date-of-enrollment>
+      <date-of-graduation>05-01-1982</date-of-graduation>
+    </degree-information>
   </student>
-  <student name="Saul Hudson">
-    <preferred-name>Slash</preferred-name>
-    <student-id>8302438</student-id>
-    <email>slash@gnr.com</email>
-    <phone>213.456.8392</phone>
-    <year>fourth year</year>
-    <gpa>2</gpa>
-    <major>Music</major>
-    <minor>Criminal Justice</minor>
-    <status>part-time</status>
-    <advisor>Axl Rose</advisor>
-    <date-of-enrollment>08-25-1983</date-of-enrollment>
-    <date-of-graduation>05-01-1987</date-of-graduation>
+  <student>
+    <personal-information name="Saul Hudson">
+      <preferred-name>Slash</preferred-name>
+      <student-id>8302438</student-id>
+    </personal-information>
+    <contact-information>
+      <email>slash@gnr.com</email>
+      <phone>213.456.8392</phone>
+    </contact-information>
+    <degree-information year="fourth year" status="part-time">
+      <gpa>2</gpa>
+      <major>Music</major>
+      <minor>Criminal Justice</minor>
+      <advisor>Axl Rose</advisor>
+      <date-of-enrollment>08-25-1983</date-of-enrollment>
+      <date-of-graduation>05-01-1987</date-of-graduation>
+    </degree-information>
   </student>
-  <student name="Emily Kokal">
-    <student-id>2983928</student-id>
-    <email>emily@warpaint.com</email>
-    <phone>213.123.7654</phone>
-    <year>third year</year>
-    <gpa>3.8</gpa>
-    <major>Political Science</major>
-    <minor>Law</minor>
-    <status>full-time</status>
-    <advisor>Jenny Lee Lindberg</advisor>
-    <date-of-enrollment>08-25-1998</date-of-enrollment>
-    <date-of-graduation>05-01-2002</date-of-graduation>
+  <student>
+    <personal-information name="Emily Kokal">
+      <student-id>2983928</student-id>
+    </personal-information>
+    <contact-information>
+      <email>emily@warpaint.com</email>
+      <phone>213.123.7654</phone>
+    </contact-information>
+    <degree-information year="third year" status="full-time">
+      <gpa>3.8</gpa>
+      <major>Political Science</major>
+      <minor>Law</minor>
+      <advisor>Jenny Lee Lindberg</advisor>
+      <date-of-enrollment>08-25-1998</date-of-enrollment>
+      <date-of-graduation>05-01-2002</date-of-graduation>
+    </degree-information>
   </student>
-  <student name="Mike Inez">
-    <student-id>7645726</student-id>
-    <email>mike@aic.com</email>
-    <phone> 213.444.3323</phone>
-    <year>second year</year>
-    <gpa>4</gpa>
-    <major>Business Management</major>
-    <minor>Math</minor>
-    <status>full-time</status>
-    <advisor>Jerry Cantrell</advisor>
-    <date-of-enrollment>08-25-1984</date-of-enrollment>
-    <date-of-graduation>05-01-1988</date-of-graduation>
+  <student>
+    <personal-information name="Mike Inez">
+      <student-id>7645726</student-id>
+    </personal-information>
+    <contact-information>
+      <email>mike@aic.com</email>
+      <phone> 213.444.3323</phone>
+    </contact-information>
+    <degree-information year="second year" status="full-time">
+      <gpa>4</gpa>
+      <major>Business Management</major>
+      <minor>Math</minor>
+      <advisor>Jerry Cantrell</advisor>
+      <date-of-enrollment>08-25-1984</date-of-enrollment>
+      <date-of-graduation>05-01-1988</date-of-graduation>
+    </degree-information>
   </student>
 </student-records>
