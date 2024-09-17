@@ -5,18 +5,23 @@
   <student name="Gordon Matthew Sumner">
     <preferred-name>Sting</preferred-name>
     <student-id>1234567</student-id>
+    <email>sting@thepolice.com</email>
   </student>
   <student name="Kim Thayil">
     <student-id>4567890</student-id>
+    <email>kim@soundgarden.com</email>
   </student>
   <student name="Saul Hudson">
     <preferred-name>Slash</preferred-name>
     <student-id>8302438</student-id>
+    <email>slash@gnr.com</email>
   </student>
   <student name="Emily Kokal">
     <student-id>2983928</student-id>
+    <email>emily@warpaint.com</email>
   </student>
   <student name="Mike Inez">
     <student-id>7645726</student-id>
+    <email>mike@aic.com</email>
   </student>
 </student-records>
