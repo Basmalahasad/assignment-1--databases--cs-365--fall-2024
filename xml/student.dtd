@@ -56,6 +56,6 @@
   ================================================================== -->
 <!ATTLIST student
           name CDATA #REQUIRED
-          year (first-year | second-year | third-year | fourth-year | graduate) #REQUIRED
+          year (first year | second year | third year | fourth year | graduate) #REQUIRED
           status (full-time | part-time | graduated | withdrawn) #REQUIRED
 >
