@@ -13,6 +13,8 @@
     <minor>English</minor>
     <status>full-time</status>
     <advisor>Andy Summers</advisor>
+    <date-of-enrollment>08-25-1969</date-of-enrollment>
+    <date-of-graduation>05-01-1973</date-of-graduation>
   </student>
   <student name="Kim Thayil">
     <student-id>4567890</student-id>
@@ -24,6 +26,8 @@
     <minor>Music</minor>
     <status>full-time</status>
     <advisor>Chris Cornell</advisor>
+    <date-of-enrollment>08-25-1978</date-of-enrollment>
+    <date-of-graduation>05-01-1982</date-of-graduation>
   </student>
   <student name="Saul Hudson">
     <preferred-name>Slash</preferred-name>
@@ -36,6 +40,8 @@
     <minor>Criminal Justice</minor>
     <status>part-time</status>
     <advisor>Axl Rose</advisor>
+    <date-of-enrollment>08-25-1983</date-of-enrollment>
+    <date-of-graduation>05-01-1987</date-of-graduation>
   </student>
   <student name="Emily Kokal">
     <student-id>2983928</student-id>
@@ -47,6 +53,8 @@
     <minor>Law</minor>
     <status>full-time</status>
     <advisor>Jenny Lee Lindberg</advisor>
+    <date-of-enrollment>08-25-1998</date-of-enrollment>
+    <date-of-graduation>05-01-2002</date-of-graduation>
   </student>
   <student name="Mike Inez">
     <student-id>7645726</student-id>
@@ -58,5 +66,7 @@
     <minor>Math</minor>
     <status>full-time</status>
     <advisor>Jerry Cantrell</advisor>
+    <date-of-enrollment>08-25-1984</date-of-enrollment>
+    <date-of-graduation>05-01-1988</date-of-graduation>
   </student>
 </student-records>
