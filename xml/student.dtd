@@ -6,21 +6,15 @@
 
 <!-- ===================================================================
   Define the structure of a student element, where each student must
-  have first and last name, student ID, email, phone, year, GPA,
-  major, status, advisor, enrollment date, graduation date elements.
+  have student ID, email, phone, year, GPA, major, status, advisor,
+  enrollment date, graduation date elements.
 
-  The student can have zero or one middle name and preferred name.
+  The student can have zero or one preferred names.
 
   The student can have zero or more minors and one or more majors.
   ================================================================== -->
-<!ELEMENT student (first-name,middle-name?,last-name,preferred-name?,student-id,email,phone,year,gpa,major+,minor*,status,advisor,date-of-enrollment,date-of-graduation)>
+<!ELEMENT student (preferred-name?,student-id,email,phone,year,gpa,major+,minor*,status,advisor,date-of-enrollment,date-of-graduation)>
 
-<!-- Define the first-name element, which contains text. -->
-<!ELEMENT first-name (#PCDATA)>
-<!-- Define the middle-name element, which contains text and is optional. -->
-<!ELEMENT middle-name (#PCDATA)>
-<!-- Define the last-name element, which contains text. -->
-<!ELEMENT last-name (#PCDATA)>
 <!-- Define the preferred-name element, which contains text and is optional. -->
 <!ELEMENT preferred-name (#PCDATA)>
 <!-- Define the student-id element, which contains text. -->
@@ -49,15 +43,19 @@
 <!-- ====================================================================
   Define the attributed for the student element.
 
-  Year attribute must be one of : first-year, second-year, third-year,
+  name attribute is a required attribute of type CDATA. It is used to
+  specify the name of the student.
+
+  year attribute must be one of : first-year, second-year, third-year,
   fourth-year, or graduate.
 
   status attribute must be one of : full-time, part-time, graduated,
   withdrawn.
 
-  Both atributes are required.
+  All atributes are required.
   ================================================================== -->
 <!ATTLIST student
+          name CDATA #REQUIRED
           year (first-year | second-year | third-year | fourth-year | graduate) #REQUIRED
           status (full-time | part-time | graduated | withdrawn) #REQUIRED
 >
