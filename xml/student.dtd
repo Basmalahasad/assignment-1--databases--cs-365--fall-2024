@@ -18,3 +18,7 @@
 <!ELEMENT date-of-enrollment (#PCDATA)>
 <!ELEMENT date-of-graduation (#PCDATA)>
 
+<!ATTLIST student
+          year (first-year | second-year | third-year | fourth-year | graduate) #REQUIRED
+          status (full-time | part-time | graduated | withdrawn) #REQUIRED
+>
