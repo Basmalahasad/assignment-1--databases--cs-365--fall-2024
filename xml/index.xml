@@ -2,4 +2,14 @@
 <!DOCTYPE student-records SYSTEM "student.dtd">
 
 <student-records>
+  <student name="Gordon Matthew Sumner">
+  </student>
+  <student name="Kim Thayil">
+  </student>
+  <student name="Saul Hudson">
+  </student>
+  <student name="Emily Kokal">
+  </student>
+  <student name="Mike Inez">
+  </student>
 </student-records>
