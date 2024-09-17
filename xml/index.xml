@@ -4,14 +4,19 @@
 <student-records>
   <student name="Gordon Matthew Sumner">
     <preferred-name>Sting</preferred-name>
+    <student-id>1234567</student-id>
   </student>
   <student name="Kim Thayil">
+    <student-id>4567890</student-id>
   </student>
   <student name="Saul Hudson">
     <preferred-name>Slash</preferred-name>
+    <student-id>8302438</student-id>
   </student>
   <student name="Emily Kokal">
+    <student-id>2983928</student-id>
   </student>
   <student name="Mike Inez">
+    <student-id>7645726</student-id>
   </student>
 </student-records>
