@@ -12,7 +12,7 @@ phone::after,
 gpa,
 advisor,
 date-of-enrollment,
-date-of-graduation{
+date-of-graduation {
   display: block;
 }
 
@@ -22,7 +22,7 @@ gpa::before,
 major::before,
 advisor::before,
 date-of-enrollment::before,
-date-of-graduation::before{
+date-of-graduation::before {
   color: #525252;
   font-weight: 500;
   margin-left: 15px;
@@ -32,8 +32,8 @@ date-of-graduation::before{
 personal-information::before,
 preferred-name,
 student-id::after,
-phone::after{
-  color: #134e90
+phone::after {
+  color: #134e90;
 }
 
 :root {
@@ -60,7 +60,7 @@ student {
   margin-bottom: 10px;
 }
 
-personal-information::before{
+personal-information::before {
   content: attr(name);
   font-weight: 600;
   font-size: 25px;
@@ -82,57 +82,57 @@ preferred-name::after {
   content: '"';
 }
 
-student-id::before{
+student-id::before {
   content: "Student ID: " attr(name);
   font-weight: 500;
   color: #525252;
 }
 
-student-id::after{
+student-id::after {
   content: "Contact Information: " attr(name);
   font-weight: 600;
   font-size: 18px;
   margin-top: 25px;
 }
 
-email::before{
+email::before {
   content: "Email: " attr(name);
 }
 
-phone::before{
+phone::before {
   content: "Phone Number: " attr(name);
 }
 
-phone::after{
+phone::after {
   content: "Degree Information: " attr(name);
   font-weight: 600;
   font-size: 18px;
   margin-top: 25px;
 }
 
-gpa::before{
+gpa::before {
   content: "GPA: " attr(name);
 }
 
-major::before{
+major::before {
   content: "Major: " attr(name);
 }
 
-minor::before{
+minor::before {
   content: "Minor: " attr(name);
   font-weight: 500;
   margin-left: 7px;
   color: #525252;
 }
 
-advisor::before{
+advisor::before {
   content: "Advisor: " attr(name);
 }
 
-date-of-enrollment::before{
+date-of-enrollment::before {
   content: "Enrollment Date: " attr(name);
 }
 
-date-of-graduation::before{
+date-of-graduation::before {
   content: "Graduation Date: " attr(name);
 }
