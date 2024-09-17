@@ -3,10 +3,12 @@
 
 <student-records>
   <student name="Gordon Matthew Sumner">
+    <preferred-name>Sting</preferred-name>
   </student>
   <student name="Kim Thayil">
   </student>
   <student name="Saul Hudson">
+    <preferred-name>Slash</preferred-name>
   </student>
   <student name="Emily Kokal">
   </student>
