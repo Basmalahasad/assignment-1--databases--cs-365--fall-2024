@@ -8,12 +8,14 @@
     <email>sting@thepolice.com</email>
     <phone>212.123.4567</phone>
     <year>first year</year>
+    <gpa>4</gpa>
   </student>
   <student name="Kim Thayil">
     <student-id>4567890</student-id>
     <email>kim@soundgarden.com</email>
     <phone>206.123.4567</phone>
     <year>second year</year>
+    <gpa>3</gpa>
   </student>
   <student name="Saul Hudson">
     <preferred-name>Slash</preferred-name>
@@ -21,17 +23,20 @@
     <email>slash@gnr.com</email>
     <phone>213.456.8392</phone>
     <year>fourth year</year>
+    <gpa>2</gpa>
   </student>
   <student name="Emily Kokal">
     <student-id>2983928</student-id>
     <email>emily@warpaint.com</email>
     <phone>213.123.7654</phone>
     <year>third year</year>
+    <gpa>3.8</gpa>
   </student>
   <student name="Mike Inez">
     <student-id>7645726</student-id>
     <email>mike@aic.com</email>
     <phone> 213.444.3323</phone>
     <year>second year</year>
+    <gpa>4</gpa>
   </student>
 </student-records>
