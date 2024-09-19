@@ -12,7 +12,7 @@
       <email>sting@thepolice.com</email>
       <phone>212.123.4567</phone>
     </contact-information>
-    <degree-information year="first year" status="full-time">
+    <degree-information year="first-year" status="full-time">
       <gpa>4</gpa>
       <major>Music</major>
       <minor>English</minor>
@@ -29,7 +29,7 @@
       <email>kim@soundgarden.com</email>
       <phone>206.123.4567</phone>
     </contact-information>
-    <degree-information year="second year" status="full-time">
+    <degree-information year="second-year" status="full-time">
       <gpa>3</gpa>
       <major>Philosophy</major>
       <minor>Music</minor>
@@ -47,7 +47,7 @@
       <email>slash@gnr.com</email>
       <phone>213.456.8392</phone>
     </contact-information>
-    <degree-information year="fourth year" status="part-time">
+    <degree-information year="fourth-year" status="part-time">
       <gpa>2</gpa>
       <major>Music</major>
       <minor>Criminal Justice</minor>
@@ -64,7 +64,7 @@
       <email>emily@warpaint.com</email>
       <phone>213.123.7654</phone>
     </contact-information>
-    <degree-information year="third year" status="full-time">
+    <degree-information year="third-year" status="full-time">
       <gpa>3.8</gpa>
       <major>Political Science</major>
       <minor>Law</minor>
@@ -81,7 +81,7 @@
       <email>mike@aic.com</email>
       <phone>213.444.3323</phone>
     </contact-information>
-    <degree-information year="second year" status="full-time">
+    <degree-information year="second-year" status="full-time">
       <gpa>4</gpa>
       <major>Business Management</major>
       <minor>Math</minor>

@@ -18,7 +18,7 @@
   Define the structure of 'preferred name' and 'student ID' elements as parsed
   character data, since these elements contain character data (text).
   ============================================================================ -->
-<!ElEMENT personal-information (preferred-name?,student-id)>
+<!ELEMENT personal-information (preferred-name?,student-id)>
 <!ELEMENT preferred-name (#PCDATA)>
 <!ELEMENT student-id (#PCDATA)>
 
@@ -71,5 +71,5 @@
   All attributes are required.
   ============================================================================ -->
 <!ATTLIST degree-information
-          year (first year | second year | third year | fourth year | graduate) #REQUIRED
+          year (first-year | second-year | third-year | fourth-year | graduate) #REQUIRED
           status (full-time | part-time | graduated | withdrawn) #REQUIRED>
