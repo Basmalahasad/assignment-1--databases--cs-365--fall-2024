@@ -1,114 +1,114 @@
 {
-  "student-records": [
+  "student-records":[
     {
-      "student": {
-        "personal-information": {
-          "name": "Gordon Matthew Sumner",
-          "preferred-name": "Sting",
-          "student-id": 1234567
+      "student":{
+        "personal-information":{
+          "name":"Gordon Matthew Sumner",
+          "preferred-name":"Sting",
+          "student-id":1234567
         },
-        "contact-information": {
-          "email": "sting@thepolice.com",
-          "phone": "212.123.4567"
+        "contact-information":{
+          "email":"sting@thepolice.com",
+          "phone":"212.123.4567"
         },
-        "degree-information": {
-          "year": "first year",
-          "status": "full-time",
-          "gpa": 4,
-          "major": "Music",
-          "minor": "English",
-          "advisor": "Andy Summers",
-          "date-of-enrollment": "08-25-1969",
-          "date-of-graduation": "05-01-1973"
+        "degree-information":{
+          "year":"first year",
+          "status":"full-time",
+          "gpa":4,
+          "major":"Music",
+          "minor":"English",
+          "advisor":"Andy Summers",
+          "date-of-enrollment":"08-25-1969",
+          "date-of-graduation":"05-01-1973"
         }
       }
     },
     {
-      "student": {
-        "personal-information": {
-          "name": "Kim Thayil",
-          "student-id": 4567890
+      "student":{
+        "personal-information":{
+          "name":"Kim Thayil",
+          "student-id":4567890
         },
-        "contact-information": {
-          "email": "kim@soundgarden.com",
-          "phone": "206.123.4567"
+        "contact-information":{
+          "email":"kim@soundgarden.com",
+          "phone":"206.123.4567"
         },
-        "degree-information": {
-          "year": "second year",
-          "status": "full-time",
-          "gpa": 3,
-          "major": "Philosophy",
-          "minor": "Music",
-          "advisor": "Chris Cornell",
-          "date-of-enrollment": "08-25-1978",
-          "date-of-graduation": "05-01-1982"
+        "degree-information":{
+          "year":"second year",
+          "status":"full-time",
+          "gpa":3,
+          "major":"Philosophy",
+          "minor":"Music",
+          "advisor":"Chris Cornell",
+          "date-of-enrollment":"08-25-1978",
+          "date-of-graduation":"05-01-1982"
         }
       }
     },
     {
-      "student": {
-        "personal-information": {
-          "name": "Saul Hudson",
-          "preferred-name": "Slash",
-          "student-id": 8302438
+      "student":{
+        "personal-information":{
+          "name":"Saul Hudson",
+          "preferred-name":"Slash",
+          "student-id":8302438
         },
-        "contact-information": {
-          "email": "slash@gnr.com",
-          "phone": "213.456.8392"
+        "contact-information":{
+          "email":"slash@gnr.com",
+          "phone":"213.456.8392"
         },
-        "degree-information": {
-          "year": "fourth year",
-          "status": "part-time",
-          "gpa": 2,
-          "major": "Music",
-          "minor": "Criminal Justice",
-          "advisor": "Axl Rose",
-          "date-of-enrollment": "08-25-1983",
-          "date-of-graduation": "05-01-1987"
+        "degree-information":{
+          "year":"fourth year",
+          "status":"part-time",
+          "gpa":2,
+          "major":"Music",
+          "minor":"Criminal Justice",
+          "advisor":"Axl Rose",
+          "date-of-enrollment":"08-25-1983",
+          "date-of-graduation":"05-01-1987"
         }
       }
     },
     {
-      "student": {
-        "personal-information": {
-          "name": "Emily Kokal",
-          "student-id": 2983928
+      "student":{
+        "personal-information":{
+          "name":"Emily Kokal",
+          "student-id":2983928
         },
-        "contact-information": {
-          "email": "emily@warpaint.com",
-          "phone": "213.123.7654"
+        "contact-information":{
+          "email":"emily@warpaint.com",
+          "phone":"213.123.7654"
         },
-        "degree-information": {
-          "year": "third year",
-          "status": "full-time",
-          "gpa": 3.8,
-          "major": "Political Science",
-          "minor": "Law",
-          "advisor": "Jenny Lee Lindberg",
-          "date-of-enrollment": "08-25-1998",
-          "date-of-graduation": "05-01-2002"
+        "degree-information":{
+          "year":"third year",
+          "status":"full-time",
+          "gpa":3.8,
+          "major":"Political Science",
+          "minor":"Law",
+          "advisor":"Jenny Lee Lindberg",
+          "date-of-enrollment":"08-25-1998",
+          "date-of-graduation":"05-01-2002"
         }
       }
     },
     {
-      "student": {
-        "personal-information": {
-          "name": "Mike Inez",
-          "student-id": 7645726
+      "student":{
+        "personal-information":{
+          "name":"Mike Inez",
+          "student-id":7645726
         },
-        "contact-information": {
-          "email": "mike@aic.com",
-          "phone": "213.444.3323"
+        "contact-information":{
+          "email":"mike@aic.com",
+          "phone":"213.444.3323"
         },
-        "degree-information": {
-          "year": "second year",
-          "status": "full-time",
-          "gpa": 4,
-          "major": "Business Management",
-          "minor": "Math",
-          "advisor": "Jerry Cantrell",
-          "date-of-enrollment": "08-25-1984",
-          "date-of-graduation": "05-01-1988"
+        "degree-information":{
+          "year":"second year",
+          "status":"full-time",
+          "gpa":4,
+          "major":"Business Management",
+          "minor":"Math",
+          "advisor":"Jerry Cantrell",
+          "date-of-enrollment":"08-25-1984",
+          "date-of-graduation":"05-01-1988"
         }
       }
     }
